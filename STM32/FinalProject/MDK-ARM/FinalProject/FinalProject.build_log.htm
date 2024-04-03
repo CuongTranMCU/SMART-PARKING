@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Moe Kartz, RANDOM BOARD INC, LIC=8VRJ7-ERWQ4-WFWI7-E6ZQP-U7XGU-8TR4H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Works\STM32\CE224\FinalProject\MDK-ARM\FinalProject.uvprojx
+Project File Date:  12/19/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'FinalProject'
+compiling main.c...
+../Core/Inc/liquidcrystal_i2c.h(61): warning:  #1295-D: Deprecated declaration HD44780_Clear - give arg types
+  void HD44780_Clear();
+../Core/Inc/liquidcrystal_i2c.h(62): warning:  #1295-D: Deprecated declaration HD44780_Home - give arg types
+  void HD44780_Home();
+../Core/Inc/liquidcrystal_i2c.h(63): warning:  #1295-D: Deprecated declaration HD44780_NoDisplay - give arg types
+  void HD44780_NoDisplay();
+../Core/Inc/liquidcrystal_i2c.h(64): warning:  #1295-D: Deprecated declaration HD44780_Display - give arg types
+  void HD44780_Display();
+../Core/Inc/liquidcrystal_i2c.h(65): warning:  #1295-D: Deprecated declaration HD44780_NoBlink - give arg types
+  void HD44780_NoBlink();
+../Core/Inc/liquidcrystal_i2c.h(66): warning:  #1295-D: Deprecated declaration HD44780_Blink - give arg types
+  void HD44780_Blink();
+../Core/Inc/liquidcrystal_i2c.h(67): warning:  #1295-D: Deprecated declaration HD44780_NoCursor - give arg types
+  void HD44780_NoCursor();
+../Core/Inc/liquidcrystal_i2c.h(68): warning:  #1295-D: Deprecated declaration HD44780_Cursor - give arg types
+  void HD44780_Cursor();
+../Core/Inc/liquidcrystal_i2c.h(69): warning:  #1295-D: Deprecated declaration HD44780_ScrollDisplayLeft - give arg types
+  void HD44780_ScrollDisplayLeft();
+../Core/Inc/liquidcrystal_i2c.h(70): warning:  #1295-D: Deprecated declaration HD44780_ScrollDisplayRight - give arg types
+  void HD44780_ScrollDisplayRight();
+../Core/Inc/liquidcrystal_i2c.h(71): warning:  #1295-D: Deprecated declaration HD44780_PrintLeft - give arg types
+  void HD44780_PrintLeft();
+../Core/Inc/liquidcrystal_i2c.h(72): warning:  #1295-D: Deprecated declaration HD44780_PrintRight - give arg types
+  void HD44780_PrintRight();
+../Core/Inc/liquidcrystal_i2c.h(73): warning:  #1295-D: Deprecated declaration HD44780_LeftToRight - give arg types
+  void HD44780_LeftToRight();
+../Core/Inc/liquidcrystal_i2c.h(74): warning:  #1295-D: Deprecated declaration HD44780_RightToLeft - give arg types
+  void HD44780_RightToLeft();
+../Core/Inc/liquidcrystal_i2c.h(75): warning:  #1295-D: Deprecated declaration HD44780_ShiftIncrement - give arg types
+  void HD44780_ShiftIncrement();
+../Core/Inc/liquidcrystal_i2c.h(76): warning:  #1295-D: Deprecated declaration HD44780_ShiftDecrement - give arg types
+  void HD44780_ShiftDecrement();
+../Core/Inc/liquidcrystal_i2c.h(77): warning:  #1295-D: Deprecated declaration HD44780_NoBacklight - give arg types
+  void HD44780_NoBacklight();
+../Core/Inc/liquidcrystal_i2c.h(78): warning:  #1295-D: Deprecated declaration HD44780_Backlight - give arg types
+  void HD44780_Backlight();
+../Core/Inc/liquidcrystal_i2c.h(79): warning:  #1295-D: Deprecated declaration HD44780_AutoScroll - give arg types
+  void HD44780_AutoScroll();
+../Core/Inc/liquidcrystal_i2c.h(80): warning:  #1295-D: Deprecated declaration HD44780_NoAutoScroll - give arg types
+  void HD44780_NoAutoScroll();
+../Core/Src/main.c(80): warning:  #1295-D: Deprecated declaration display_welcome - give arg types
+  void display_welcome();
+../Core/Src/main.c(131): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
+../Core/Src/main.c(132): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, isSignUp);
+../Core/Src/main.c(490): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, isSignUp);
+../Core/Src/main.c: 24 warnings, 0 errors
+linking...
+Program Size: Code=12120 RO-data=368 RW-data=52 ZI-data=1964  
+FromELF: creating hex file...
+"FinalProject\FinalProject.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_FinalProject
+  C:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

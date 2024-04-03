@@ -1,0 +1,16 @@
+finalproject\i2c.o: ..\Core\Src\i2c.c
+finalproject\i2c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
+finalproject\i2c.o: .\RTE\_FinalProject\RTE_Components.h
+finalproject\i2c.o: ../Drivers/CMSIS/Include/core_cm3.h
+finalproject\i2c.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+finalproject\i2c.o: ../Drivers/CMSIS/Include/cmsis_version.h
+finalproject\i2c.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+finalproject\i2c.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+finalproject\i2c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h
+finalproject\i2c.o: ../Core/Inc/I2C.h
+finalproject\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+finalproject\i2c.o: ../Core/Inc/stm32f1xx_hal_conf.h
+finalproject\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+finalproject\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+finalproject\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+finalproject\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
